@@ -1,13 +1,27 @@
-# React + Vite
+# CONTEXT STORE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React Context API kullanarak bir e-ticaret sitesinde state yönetimini sağlamayı amaçlamaktadır. Kullanıcılar takı, alt ve üst kıyafet kategorilerinden ürünleri sepete ekleyebilir, çıkarabilir ve bu işlemleri anlık olarak görüntüleyebilirler.
 
-Currently, two official plugins are available:
+# Proje Özellikleri
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Global state yönetimi için Context API kullanılmıştır.
 
-## Expanding the ESLint configuration
+Takı, alt ve üst kıyafet gruplarından oluşan bir ürün listesi bulunmaktadır.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# contextStore
+Kullanıcılar ürünleri sepete ekleyebilir ve çıkarabilir.
+
+Sepete ekleme veya çıkarma işlemi yapıldığında sağdan çıkan pop-up ile kullanıcı bilgilendirilir.
+
+Sepete eklenen ürünler anlık olarak güncellenir ve görüntülenir.
+
+# Kullanılan Teknolojiler
+
+React: Kullanıcı arayüzü geliştirme
+
+Context API: Global state yönetimi
+
+CSS/Tailwind: Stil tasarımı
+
+# GIF 
+
+![Zight Recording 2025-03-12 at 10 34 53 PM](https://github.com/user-attachments/assets/49a2ed62-402a-4baf-99c6-980cc59a390f)
